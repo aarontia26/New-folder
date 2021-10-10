@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Gallery</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+        <style>
+            .collapse {
+                justify-content: end;
+            }
+            .navbar {
+                padding: 0;
+            }
+            .title {
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 25px;
+                letter-spacing: 3px;
+            }
+
+            .desc {
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            .container-fluid {
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: teal;
+                height: 10vh;
+                color: white;
+            }
+
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid" >
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link " href="contact.html">Contact</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container mt-5">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-12 title mb-1 text-center">• My Dogs •</div>
+                <div class="col-md-3 card m-1" style="max-width: 17rem;">
+                    <img class="card-img-top mt-3" src="mac.jpg" height="100%">
+                    <div class="card-body">
+                        <p class="text-center desc">Mac Mac</p>
+                    </div>
+                </div>
+                <div class="col-md-3 card m-1" style="max-width: 17rem;">
+                    <img class="card-img-top mt-3" src="mic.jpg" height="100%">
+                    <div class="card-body">
+                        <p class="text-center desc">Mic Mic</p>
+                    </div>
+                </div>
+                <div class="col-md-3 card m-1" style="max-width: 17rem;">
+                    <img class="card-img-top mt-3" src="macmic.jpg" height="100%">
+                    <div class="card-body">
+                        <p class="text-center desc">Mac & Mic</p>
+                    </div>
+                </div>
+                <div class="col-md-3 card m-1" style="max-width: 17rem;">
+                    <img class="card-img-top mt-3" src="macmic (2).jpg" height="100%">
+                    <div class="card-body">
+                        <p class="text-center desc">Mac & Mic</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container mt-5">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-12 title mb-1 text-center">• College Friends •</div>
+                <div class="col-md-3 card m-1" style="max-width: 17rem;">
+                    <img class="card-img-top mt-3" src="friends.jpg">
+                    <div class="card-body">
+                        <p class="text-center desc">Batangas</p>
+                    </div>
+                </div>
+                <div class="col-md-3 card m-1" style="max-width: 17rem;">
+                    <img class="card-img-top mt-3" src="friends1.jpg">
+                    <div class="card-body">
+                        <p class="text-center desc">Selfie</p>
+                    </div>
+                </div>
+                <div class="col-md-3 card m-1" style="max-width: 17rem;">
+                    <img class="card-img-top mt-3" src="friends3.jpg">
+                    <div class="card-body">
+                        <p class="text-center desc">My Birthday</p>
+                    </div>
+                </div>
+                <div class="col-md-3 card m-1" style="max-width: 17rem;">
+                    <img class="card-img-top mt-3" src="friends4.jpg">
+                    <div class="card-body">
+                        <p class="text-center desc">Karaoke Time</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mt-5">
+            <div class="row">
+                <div class="col-md-12">&#169; Aaron Mendez Tia 2021</div>
+            </div>
+        </div>
+    </body>
+</html>
